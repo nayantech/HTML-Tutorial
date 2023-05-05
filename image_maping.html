@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-maping</title>
+
+</head>
+<body>
+    <!-- <a href="#">
+        <img src="social.jpeg" width="500px" height="500px" ismap>
+    </a> -->
+    <a href="#">
+        <img src="social.jpeg" width="500px" height="500px" usemap="#socialmedia">
+    </a>
+
+    <map name="socialmedia">
+        <area target="_blank" alt="instagram" title="instagram" href="https://www.instagram.com/"
+        coords="55,40,135,137" shape="rect">
+    </map>
+
+    <map name="socialmedia">
+        <area target="_blank" alt="Youtube" title="Youtube" href="https://www.youtube.com/"
+        coords="251,94,10" shape="circle">
+    </map>    
+    
+    <map name="socialmedia">
+        <area target="_blank" alt="facebook" title="facebook" href="https://www.facebook.com/"
+        coords="402,44,365,134,437,132" shape="poly">
+    </map> 
+</body>
+</html>
